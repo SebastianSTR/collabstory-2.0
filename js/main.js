@@ -16,10 +16,10 @@ $(".archivebox").click(function(){
     }, 600);
 });
 
-// smooth scroll
-    $(".scroll").click(function(event){     
-    	event.preventDefault();
-    	$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+
+// Scroll when logo clicked
+    $(".headerlogo").click(function(){      
+        $('html,body').animate({scrollTop:$("#main-section").offset().top}, 500);
     });
 
 // Header Fade Out
