@@ -214,7 +214,7 @@ replyID = 0;
 
     };
     // APPEND STORY
-    $(".storytext p").html(buildStory($(this)[0].__data__.name));
+    $(".storywrapper p").html(buildStory($(this)[0].__data__.name));
     $(".replylink").delay(600).fadeIn('slow');
 
 
